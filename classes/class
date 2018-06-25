@@ -1,0 +1,22 @@
+'use strict';
+class Student{
+    constructor(data){
+        this.name = data.name;
+        this.age= data.age;
+    }
+}
+
+let j = new Student({name:'jo', age: 22});
+let s = new  Student({name:'soo', age:23});
+
+console.log(j);
+console.log(s);
+
+//adding destructing
+// class Student{
+//     constructor({name,age,interestLevel=3} = {}){
+//         this.name = name;
+//         this.age= age;
+//         this.interestLevel = interestLevel;
+//     }
+// }
