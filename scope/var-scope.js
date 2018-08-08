@@ -1,11 +1,12 @@
 'use strict';
 
-const hello = 'hello';
-// [object ,object]
+var hello = 'hello';
+
 
 function sayHi(){
-     const hello = 'hi';
+     var hello = 'hi';
     console.log(hello);
 }
 sayHi();
 console.log(hello);
+

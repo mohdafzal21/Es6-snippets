@@ -2,8 +2,8 @@
  * Programming Quiz: Using Let and Const (1-1)
  */
 
-var CHARACTER_LIMIT = 255;
-var posts = [
+const CHARACTER_LIMIT = 255;
+let posts = [
     "some posts "
 ];
 

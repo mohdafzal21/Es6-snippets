@@ -12,9 +12,9 @@
             return student;
         }
     }
-    console.log(createStudent('s2')); // s2
+    console.log(createStudent('s2'));
 
-    console.log(student); // s1
+    console.log(student);
 })();
 
 
