@@ -1,4 +1,4 @@
-this === window
+this === window  
 "use strict";
 this ===window;
 
