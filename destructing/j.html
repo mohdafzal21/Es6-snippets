@@ -1,0 +1,61 @@
+<html>
+    <head>
+         <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <title>
+        learn jquery
+    </title>
+
+<style>
+    .id1 {
+        border: 2px solid black;
+        background: red;
+        height: 100px;
+        width: 100px;
+        /* top: 0;
+        left:0;
+        margin-bottom: 5px;
+        position: absolute; */
+    }
+</style>
+
+    </head>
+    <body>
+
+    <div class="id1"></div>
+    <br>
+</br>
+     <div class="fadeIn">Fade In</div>
+     <br></br>
+     <div class="fadeOut">Fade Out</div>
+
+<script>
+//    document.getElementById('id').innerHTML = " new HE"
+$(document).ready(function(){
+
+
+    $('.fadeIn').click(function(){
+           $('.id1').slideUp(2000,function(){
+              console.log("going up")
+           });
+        });
+
+    $('.fadeOut').click(function(){
+           $('.id1').slideDown(2000, function(){
+               console.log("going down");
+           })
+        });
+
+
+
+})
+
+
+
+</script>
+</body>
+
+</html>
+
